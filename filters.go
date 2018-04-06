@@ -36,3 +36,7 @@ func NoBrFilter(content string) string {
 	}
 	return strings.Join(paragraphs, "\n\n")
 }
+
+func ReplaceFilter(content, from, to string) string {
+	return strings.Replace(content, from, to, -1)
+}

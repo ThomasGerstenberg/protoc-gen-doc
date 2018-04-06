@@ -76,6 +76,7 @@ var funcMap = map[string]interface{}{
 	"p":    PFilter,
 	"para": ParaFilter,
 	"nobr": NoBrFilter,
+	"replace": ReplaceFilter,
 }
 
 // Processor is an interface that is satisfied by all built-in processors (text, html, and json).

@@ -31,3 +31,7 @@ func NoBrFilter(content string) string {
 
 	return spacePattern.ReplaceAllString(withoutLF, " ")
 }
+
+func ReplaceFilter(content, from, to string) string {
+	return strings.Replace(content, from, to, -1)
+}
